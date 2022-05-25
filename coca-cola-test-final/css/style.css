@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+main {
+    margin: 10%;
+    width: 300px !important;
+    height: 250px !important;
+    background: #F40009;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.bg-coca {
+    background: url("https://plasticsinpackaging.com/wp-content/uploads/2019/01/coca-cola-696x376.png") no-repeat center;
+    background-size: 300px auto;
+    border-radius: 16px;
+    position: relative;
+    bottom: 50px;
+}
+button{
+  background: #000000;
+	color: #fff;
+	position: relative;
+	top: -105px;
+	left: 195px;
+	bottom: 0px;
+	z-index: 10;
+	padding: 12px 18px;
+	border: transparent;
+	border-radius: 15px 15px !important;
+}
+
+.pl-8 {
+    padding-left: 70px;
+}
+
+.logo {
+    width: 80%;
+    vertical-align: middle;
+}
+
+.coca-text {
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+.tag-line {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 1px 20px 20px black;
+    box-shadow: inset 0px 0px 200px 0px #0000007a;
+    padding: 8px 0px !important;
+    position: relative;
+    top: 74px;
+}
+
+.message {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 6px 20px 20px black;
+    padding: 8px 0px !important;
+}
+
+.animated {
+    background-image: url(/css/images/logo.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-top: 95px;
+    margin-bottom: 60px;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
